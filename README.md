@@ -1,1 +1,1 @@
-This is a project built for applying a co-op position in the company A-Thinking-Ape. I have written my answers and people can check if there a better way to do it. 
+This is a project built for applying a co-op position in the company A-Thinking-Ape. It gives an interesting question described in the 'Problem_Decription.txt'. I have written my answers and people can check if there a better way to do it. 
