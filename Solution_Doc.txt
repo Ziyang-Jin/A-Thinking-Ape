@@ -1,0 +1,26 @@
+When I run the simulation, I find the pattern:
+input  output
+1         1
+2 - 3     1  3
+4 - 7     1  3  5  7
+8 - 15    1  3  5  7  9  11  13  15
+...
+
+So my formula is:
+Give an input N,
+Find a power of 2 that is closest to and smaller than N. For example, if n is 15, the power of 2 is 8 (2^3).
+The result = 2 * (N - 'closest power of 2') + 1 
+
+I also build the Solution.cpp program to make this come true.
+It uses a while loop to compute the 'closest power of 2'.
+
+The whole program runs in O(log n) as the while loop will run log N iterations given an input N.
+The space useage is O(1).
+
+To compile the program, the command is as follows:
+g++ -Wall Solution.cpp -o solution
+
+To run the program, the command is as follows:
+./solution
+
+     

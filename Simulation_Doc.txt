@@ -1,0 +1,22 @@
+The answer to this question is not that intuitive. Even though I am able to solve it mathematically, I still build this simulation to see the results and try to find the pattern by inputting a sequence of numbers.
+
+The simulation uses a dynamic array of size N to represent people in the circle. If the person is deleted, it will have a value of -1. 
+We use a while loop to conduct the deletion, and it runs until there is 1 person left.
+Find the person's position, and print the asnwer.
+
+Runtime Analysis(input n):
+1. To build and initialize the array, it takes O(n).
+2.In each iteration, it will deletion half of people left in the cirle. Therefore, it will run O(log n) iterations.
+In each iteration, it travels through the array. Therefore, it takes O(n) in each interation.
+Therefore, the total runtime of the while loop is O(n log n).
+3. In the end, to find the position, it will travel through the entire array in the worst case. Therefore, it takes O(n).
+In summary, it runs in O(n log n) time. In real practice, with an input of 11,000,000, it takes 1.718 seconds to finish.
+
+Space-usage:
+The array takes O(n), the other variables takes O(1). It takes O(n) space in total. I deleted the dynamically-allocated array in the end, so there is no memory leak.
+
+To compile the program, the command is as follows:
+g++ -Wall Simulation.cpp -o simulation
+
+To run the simluation, the command is as follows(n is a positive integer that indicates how many people are in the circle):
+./simulation N                              
