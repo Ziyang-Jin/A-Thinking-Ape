@@ -4,12 +4,14 @@
 using namespace std;
 
 int main() {
+    int n;
+    int count;
+    int power;
+    int answer;
 
     while(1) {
-        int n = 0;
-        int count;
-        int power = 1;
-        int answer;
+        n = 0;
+        power = 1;
         cout << "Enter N: ";
         cin >> n;
 
