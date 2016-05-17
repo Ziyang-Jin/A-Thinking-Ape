@@ -8,7 +8,7 @@ input  output
 
 So my formula is:
 Give an input N,
-Find a power of 2 that is closest to and smaller than N. For example, if n is 15, the power of 2 is 8 (2^3).
+Find a power of 2 that is closest to and smaller than N. For example, if n is 15, the 'cloest power of 2' is 8 (2^3).
 The result = 2 * (N - 'closest power of 2') + 1 
 
 I also build the Solution.cpp program to make this come true.
